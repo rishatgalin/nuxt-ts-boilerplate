@@ -1,0 +1,36 @@
+:root {
+  --black-color: rgba(0, 0, 0, 0.87);
+}
+
+html {
+  /* font-family: ProximaNova, -apple-system, BlinkMacSystemFont, 'Roboto', "Helvetica Neue", Arial, sans-serif; */
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+a,
+img,
+buttton {
+  user-select: none;
+}
+
+a { text-decoration: none; }
+
+button {
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+input {
+  outline: none;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  background-clip: padding-box;
+}
+
+@media only screen and (min-width: 48em) {}
