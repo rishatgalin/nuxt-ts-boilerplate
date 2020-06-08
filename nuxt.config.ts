@@ -28,9 +28,20 @@ export default {
   loading: { color: 'red' },
   css: [ '~/assets/css/reset.css', '~/assets/css/flexboxgrid.css', '~/assets/css/common.css' ],
 
-  plugins: ['~/plugins/index.ts'],
+  plugins: [
+    '~/plugins/index.ts'
+  ],
 
-  modules: [],
+  modules: [
+    '@nuxtjs/axios'
+  ],
 
-  buildModules: ['@nuxt/typescript-build']
+  axios: {},
+
+  buildModules: [
+    '@nuxt/typescript-build',
+    '@aceforth/nuxt-optimized-images'
+  ],
+
+  optimizedImages: { optimizeImages: true }
 }

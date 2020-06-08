@@ -12,13 +12,18 @@
   "license": "ISC",
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
+    "@nuxtjs/axios": "^5.11.0",
     "date-fns": "^2.14.0",
     "nuxt": "^2.12.2",
     "nuxt-property-decorator": "^2.7.2",
     "vue-click-outside": "^1.1.0"
   },
   "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.0.1",
     "@nuxt/typescript-build": "^1.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.0",
+    "imagemin-svgo": "^8.0.0",
     "vuex-module-decorators": "^0.17.0"
   }
 }
